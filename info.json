@@ -1,0 +1,14 @@
+{
+  "name": "downgrade-port",
+  "version": "1.0.0",
+  "title": "Downgrade Port",
+  "description": "A small building that reduces the quality level of inserted items, allowing you to use recipes with mixed quality ingredients.",
+  "author": "protocol_1903",
+  "contact": "https://discord.gg/K3fXMGVc4z",
+  "homepage": "https://github.com/protocol-1903/downgrade-port",
+  "factorio_version": "2.1",
+  "dependencies": [
+    "base >= 2.1.0"
+  ],
+  "quality_required": true
+}
