@@ -4,7 +4,7 @@
 
 This mod adds a 1x1 downgrade port entity, which takes any input items and reduces their quality level. This allows you to set them up next to assembling machines so you can effectively craft with mixed-quality ingredients. This is a lossless process, you always get your items back with reduced quality, though i may look into a more gameplay-focused mode with a lossy conversion.
 
-Pairs well with [Meltdown facility](https://mods.factorio.com/meltdown-facility)
+Pairs well with [Meltdown facility](https://mods.factorio.com/mod/meltdown-facility)
 
 ## History
 This is a standalone implementation of the downgrade port from [Inverted Quality](https://mods.factorio.com/mod/Inverted-Quality), using new 2.1 API tools for zero active runtime scripting. Thanks to [@thesixthroc](https://mods.factorio.com/user/thesixthroc) for allowing me to post this as a separate mod. All gameplay details are the same as implemented in Inverted Quality for 2.0.
