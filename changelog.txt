@@ -1,4 +1,12 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.0.1
+Date: 2026-06-30
+  Changes:
+    - Unhid all downgrade recipes in factoriopedia
+    - Moved downgrade recipes to a new recipe tab
+  Bugfixes:
+    - Fixed strange icon scaling for downgrade port entity
+---------------------------------------------------------------------------------------------------
 Version: 1.0.0
 Date: 2026-06-27
   Features:

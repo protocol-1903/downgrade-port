@@ -1,6 +1,6 @@
 {
   "name": "downgrade-port",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "title": "Downgrade Port",
   "description": "A small building that reduces the quality level of inserted items, allowing you to use recipes with mixed quality ingredients.",
   "author": "protocol_1903",

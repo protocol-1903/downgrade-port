@@ -158,7 +158,6 @@ data:extend{
 		type = "item",
 		name = "downgrade-port",
 		icon = "__downgrade-port__/graphics/icons/downgrade-port.png",
-		icon_size = 170,
 		subgroup = "downgrade-port",
 		order = "a[downgrade-port]",
 		place_result = "downgrade-port",
@@ -180,6 +179,12 @@ data:extend{
     subgroup = "downgrade-port"
   },
   {
+    type = "item-group",
+    name = "downgrade-port",
+    icon = "__downgrade-port__/graphics/icons/downgrade-port.png",
+    order = "f-[downgrade-port]"
+  },
+  {
     type = "recipe-category",
     name = "downgrade-porting"
   },
@@ -188,5 +193,10 @@ data:extend{
 		name = "downgrade-port",
 		group = "production",
 		order = "e-a[downgrade-port]",
+  },
+	{
+    type = "item-subgroup",
+		name = "downgrade-porting",
+		group = "downgrade-port",
   }
 }
