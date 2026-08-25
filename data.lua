@@ -9,8 +9,6 @@ local hit_effects = require("__base__.prototypes.entity.hit-effects")
 local sounds = require("__base__.prototypes.entity.sounds")
 local item_sounds = require("__base__.prototypes.item_sounds")
 
-local SCALE = 0.23
-
 data:extend{
   {
     type = "furnace",
@@ -22,7 +20,6 @@ data:extend{
     max_health = 50,
     corpse = "small-remnants",
     dying_explosion = "splitter-explosion",
-    -- icon_draw_specification = {shift = {0, -0.3}},
     resistances = {
       {
         type = "fire",
@@ -33,7 +30,6 @@ data:extend{
     selection_box = {{-0.49, -0.5}, {0.49, 0.5}},
     damaged_trigger_effect = hit_effects.entity(),
     fast_replaceable_group = "downgrade-port",
-    -- next_upgrade = "assembling-machine-2",
     circuit_wire_max_distance = assembling_machine_circuit_wire_max_distance,
     circuit_connector = circuit_connector_definitions.create_vector(universal_connector_template, {
       {
@@ -61,7 +57,6 @@ data:extend{
         show_shadow = true,
       },
     }),
-    -- alert_icon_shift = util.by_pixel(0, -12),
     graphics_set = {
       animation = {
         north = {
@@ -75,7 +70,7 @@ data:extend{
               line_length = 4,
               animation_speed = 1,
               frame_sequence = {3},
-              scale = SCALE,
+              scale = 0.23,
               shift = util.by_pixel(5, 0),
             },
           },
@@ -91,7 +86,7 @@ data:extend{
               line_length = 4,
               animation_speed = 1,
               frame_sequence = {4},
-              scale = SCALE,
+              scale = 0.23,
               shift = util.by_pixel(5, 0),
             },
           },
@@ -107,7 +102,7 @@ data:extend{
               line_length = 4,
               animation_speed = 1,
               frame_sequence = {1},
-              scale = SCALE,
+              scale = 0.23,
               shift = util.by_pixel(5, 3),
             },
           },
@@ -123,7 +118,7 @@ data:extend{
               line_length = 4,
               animation_speed = 1,
               frame_sequence = {2},
-              scale = SCALE,
+              scale = 0.23,
               shift = util.by_pixel(5, 0),
             },
           },
@@ -142,7 +137,7 @@ data:extend{
     open_sound = sounds.machine_open,
     close_sound = sounds.machine_close,
     module_slots = 1,
-    allowed_effects = {"consumption", "pollution", "speed", "productivity", "quality"},
+    allowed_effects = {"consumption", "pollution", "speed"},
     impact_category = "metal",
     working_sound = {
       sound = {filename = "__base__/sound/transport-belt-working.ogg", volume = 0.15},
