@@ -195,3 +195,7 @@ data:extend{
 		group = "downgrade-port",
   }
 }
+
+if mods["scraptk"] then
+  ScrapIndustry.categories["downgrade-porting"] = {ignore=true}
+end
